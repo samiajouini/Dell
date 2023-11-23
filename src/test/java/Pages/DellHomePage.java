@@ -57,6 +57,7 @@ public DellHomePage() {
 		 if (product.getText().contains(productName)) {
 	
 		Thread.sleep(2000);
+                 Thread.sleep(2000);
 		 product.click();
 		 }		 
 	 }
